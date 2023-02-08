@@ -1,9 +1,18 @@
 # LendingClubCase-Study
-The Lending Club Case study of Upgrad &amp; IIITB | Global Program in Machine Learning &amp; AI
+>The Lending Club Case study of Upgrad &amp; IIITB | Global Program in Machine Learning &amp; AI <br>
+> Based on the lending data of company, we analyze and exploit all factors that have strong relationship with the status of loans.
 
-<hr>
-<br>
-<h1>Business Understanding</h1>
+
+## Table of Contents
+* [General Info](#general-information)
+* [Dataset](#datasDet)
+* [Conclusions](#conclusions)
+* [Technologies Used](#technologies-used)
+* [Contact](#contact)
+
+## General Information
+
+### <b>Business Understanding</b>
 
 <p>You work for a <b>consumer finance company</b> which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two <b>types of risks</b> are associated with the bank’s decision:
 
@@ -30,7 +39,7 @@ The Lending Club Case study of Upgrad &amp; IIITB | Global Program in Machine Le
 <hr>
 <br>
 
-<h1>Business Objectives</h1>
+### <b>Business Objectives</b>
 
 <li>This company is the largest online loan marketplace, facilitating personal loans, business loans, and financing of medical procedures. Borrowers can easily access lower interest rate loans through a fast online interface. </li>
 
@@ -46,90 +55,26 @@ The Lending Club Case study of Upgrad &amp; IIITB | Global Program in Machine Le
 <hr>
 <br>
 
-<h1>Evaluation Rubric</h1>
+## Dataset
+<li>The sample of loan data for all loans issued through the time period 2007 to 2011.</li>
 
-<table>
-    <tr>
-        <th style="text-align:center">Criteria</th>
-        <th style="text-align:center">Meets expectations</th>
-        <th style="text-align:center">Does not meet expectations</th>
-    </tr>
-    <tr>
-        <td style="text-align:center"><b>Data Understanding (10%)</td>
-        <td>
-            <li>All data quality issues are correctly identified and reported.
-            <li>Wherever required, the meanings of the variables are correctly interpreted and written either in the comments or text.
-        </td>
-        <td>
-            <li>Data quality issues are overlooked or are not identified correctly such as outliers, missing values and other data quality issues.
-            <li>The variables are interpreted incorrectly or the meaning of variables is not mentioned.
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align:center"><b>Data Cleaning and Manipulation (20%)</td>
-        <td>
-            <li>Data quality issues are addressed in the right way (missing value imputation, outlier treatment and other kinds of data redundancies, etc.).
-            <li>
-            If applicable, data is converted to a suitable and convenient format to work with using the right methods.
-            <li>
-            Manipulation of strings and dates is done correctly wherever required.
-        </td>
-        <td>
-            <li>
-            Data quality issues are not addressed correctly.
-            <li>
-            The variables are not converted to an appropriate format for analysis.
-            <li>
-            String and date manipulation is not done correctly or is done using complex methods.
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align:center"><b>Data Analysis (40%)</td>
-        <td>
-            <li>The right problem is solved which is coherent with the needs of the business. The analysis has a clear structure and the flow is easy to understand.
-            <li>Univariate and segmented univariate analysis is done correctly and appropriate realistic assumptions are made wherever required. The analyses successfully identify at least the 5 important driver variables (i.e. variables which are strong indicators of default).
-            <li>Business-driven, type-driven and data-driven metrics are created for the important variables and utilised for analysis. The explanation for creating the derived metrics is mentioned and is reasonable.
-            <li>Bivariate analysis is performed correctly and is able to identify the important combinations of driver variables. The combinations of variables are chosen such that they make business or analytical sense. 
-            <li>The most useful insights are explained correctly in the comments.
-            <li>Appropriate plots are created to present the results of the analysis. The choice of plots for respective cases is correct. The plots should clearly present the relevant insights and should be easy to read. The axes and important data points are labelled correctly.
-        </td>
-        <td>
-            <li>The analyses do not address the right problem or deviate from the business objectives. The analysis lacks a clear structure and is not easy to follow.
-            <li>The univariate and bivariate analysis is not performed in sufficient detail and thus some crucial insights are missed out. The analyses are not able to identify enough important driver variables.
-            <li>New metrics are not derived wherever appropriate. The explanation for creating the derived metrics is either not mentioned or the metrics are not reasonable. 
-            <li>Derived metrics are not analysed correctly/are insufficiently utilised.
-            <li>Important insights are not mentioned in the report or the Python file. Relevant plots are not created. The choice of plots is not ideal and the plots are either difficult to interpret or lack clarity or neatness. Relevant insights are not clearly presented by the plots. The axes and important data points are not labelled correctly/neatly. 
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align:center"><b>Presentation and Recommendations (20%)</td>
-        <td>
-            <li>The presentation has a clear structure, is not too long, and explains the most important results concisely in simple language.
-            <li>The recommendations to solve the problems are realistic, actionable and coherent with the analysis. 
-            <li>The GitHub repository link contains a Python file, presentation file and a README.md file. README.md file should describe the project briefly.
-            <li>If any assumptions are made, they are stated clearly.
-        </td>
-        <td>
-            <li>The presentation lacks structure, is too long or does not put emphasis on the important observations. The language used is complicated for business people to understand.
-            <li>The recommendations to solve the problems are either unrealistic, non-actionable or incoherent with the analysis.
-            <li>The GitHub repository should not be private.  
-            <li>The GitHub repository link which does not contain a Python file, presentation file and a README.md file.
-            <li>README.md file which has no proper brief description of the project.
-            <li>Contains unnecessary details or lacks the important ones.
-            <li>Assumptions made, if any, are not stated clearly.
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align:center"><b>Conciseness and readability of the code (10%)</td>
-        <td>
-            <li>The code is concise and syntactically correct. Wherever appropriate, built-in functions and standard libraries are used instead of writing long code (if-else statements, for loops, etc.).
-            <li>Custom functions are used to perform repetitive tasks.
-            <li>The code is readable with appropriately named variables and detailed comments are written wherever necessary.
-        </td>
-        <td>
-            <li>Long and complex code used instead of shorter built-in functions.
-            <li>Custom functions are not used to perform repetitive tasks resulting in the same piece of code being repeated multiple times.
-            <li>Code readability is poor because of vaguely named variables or lack of comments wherever necessary.
-        </td>
-    </tr>
-</table>
+<hr>
+
+## Conclusions
+- The <b>total payment below 10000$</b> which has <b>high rate of default loans</b> can be considered as the threshold for business to apply in their rules-based procedure
+- The business should draws some specific rules that target only <b>higher grades (A->C) to increases sales</b> or focus on <b>lower grades (D->G) to reduce risks</b>
+- <b>Interest rate over 12%</b> is the point where business should put more efforts to validate and analyze the potential <b>risk of lending cases</b> to reduce the bad rate
+- <b><5000$ in Principal Received to Date</b> is the package that <b>75% charged off cases</b> can not reached
+- Most of lending cases have <b>Lending Purposes</b> come from <b>Debt, Credit Card, Car and Home Improvement</b>. 
+
+
+## Technologies Used
+- Python - Version 3.8.10 64-bit
+- Pandas - Version 1.3.0
+- Numpy - Version 1.21.0
+- Seaborn - Version 0.12.1
+- Matplotlib - Version 3.4.2
+
+
+## Contact
+Created by [@bigredbug47] - feel free to contact me!
